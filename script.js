@@ -6,7 +6,7 @@
            const areaOfCircle = (radius, pi) => {
            return pi * radius * radius;
 };
-         alert("The area of the circle : " + areaOfCircle(radius, pi).toFixed(2));
+         alert("The area of the circle with radius " + radius +" "+"is"+" "+areaOfCircle(radius, pi).toFixed(2));
 // function circle(radius)
 // {
 //     this.radius = radius;
